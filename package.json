@@ -1,0 +1,31 @@
+{
+  "name": "bare-skincare-service",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/v3rma9579/Bare-skincare-service#readme",
+  "bugs": {
+    "url": "https://github.com/v3rma9579/Bare-skincare-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3rma9579/Bare-skincare-service.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
